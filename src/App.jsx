@@ -22,7 +22,7 @@ function App() {
       {/* Navbar to show cart count */}
       <Navbar cartCount={cart.length} openCart={() => setIsCartOpen(true)} />
       
-      {/* Product List */}
+      {/* ProductList */}
       <ProductList addToCart={addToCart} />
 
       {/* Cart Modal - Conditional rendering */}
