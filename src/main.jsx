@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'; // Correct import for React 18
+import ReactDOM from 'react-dom/client'; 
 import './index.css'; // Import TailwindCSS
 import App from './App'; // Main App component
 
