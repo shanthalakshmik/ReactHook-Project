@@ -17,7 +17,7 @@ function ProductList({ addToCart }) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
       {products.length === 0 ? (
-        <div className="col-span-full text-center"> products available</div>
+        <div className="col-span-full text-center">No products available</div>
       ) : (
         products.map((product) => (
           <ProductCard

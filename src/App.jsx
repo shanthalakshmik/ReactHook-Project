@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import CartModal from './components/CartModal';
 
 function App() {
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = useState([]);  // This initializes the cart state
   const [isCartOpen, setIsCartOpen] = useState(false);
 
   // Add product to the cart
@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       {/* Navbar to show cart count */}
       <Navbar cartCount={cart.length} openCart={() => setIsCartOpen(true)} />
-      
+
       {/* ProductList */}
       <ProductList addToCart={addToCart} />
 
